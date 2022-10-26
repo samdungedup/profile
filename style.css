@@ -1,0 +1,124 @@
+h1, h2, h3, p {
+
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+
+  Margin: 0px auto;
+  Max-width: 1200px;
+  text-align: center;
+
+  }
+
+  @media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+  .profile-avatar {
+
+  Width: 100px;
+  Height: 100px;
+  Border-radius: 100px;
+  object-fit: cover;
+
+  }
+
+  .profile-header {
+
+    color: white;
+
+  }
+
+  .card {
+
+    /* Text-align: center; */
+    Background-color: #55848474;
+    Padding: 30px;
+    Border-radius: 10px;
+    Margin-bottom: 20px;
+    /* color: white; */
+
+    }
+
+    .description {
+
+      color: #104061
+    }
+
+    .email {
+
+        color: white;
+        text-decoration: none;
+
+      }
+
+
+
+    .contact_button {
+      background-color: #39bc42; /* Green */
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    .contact_button {
+      transition-duration: 0.4s;
+    }
+
+    .contact_button:hover {
+      background-color: #8fbd91; /* Green */
+      color: white;
+    }
+
+
+    li {
+
+    List-style: none;
+
+    }
+
+    .horizontal-list {
+
+    Display: flex;
+    Justify-content: space-evenly
+
+    }
+
+    ul {
+
+      padding-inline-start: 0px !important;
+  }
+
+    .fa-brands {
+
+      color: #104061;
+
+    }
+
+
+    .fa-sharp {
+
+      margin-right: 20px;
+
+    }
